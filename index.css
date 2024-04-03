@@ -1,0 +1,48 @@
+html{
+    background-image: url(Source/back.jpg);
+}
+.parent {
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding-top: 55px;
+}
+
+.div1 {
+grid-area: 2 / 2 / 4 / 3;
+text-align: center;
+background-color: rgb(19, 19, 18);
+padding-top: 15px;
+border-radius: 20px;
+color: rgb(255, 195, 242);
+font-family: monospace;
+font-size: 17px;
+}
+.div2{
+grid-area: 2 / 3 / 3 / 4;
+background-color: rgb(19, 19, 18);
+padding: 5px;
+border-radius: 20px;
+color: rgb(232, 165, 165);
+}
+.div3{
+grid-area: 3 / 3 / 4 / 4;
+background-color: rgb(19, 19, 18);
+padding: 5px;
+border-radius: 20px;
+text-align: center;
+color: rgb(255, 146, 146);
+font-family: monospace;
+font-size: 17px;
+}
+.div4{
+grid-area: 2 / 4 / 4 / 5;
+background-color: rgb(19, 19, 18);
+padding-left: 35px;
+padding-top: 20px;
+border-radius: 20px;
+}
+    

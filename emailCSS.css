@@ -1,0 +1,9 @@
+html{
+    text-align: center;
+    font-family: monospace;
+    font-size: 0.7cm;
+    background-image: url(Source/back.jpg);
+}
+h2{
+    color: red;
+}
